@@ -7,7 +7,7 @@ const Home = () => {
 
     //const[counter,setCounter] = useState(0);
 const[search, setSearch] = useState("");
-const[query,setQuery] = useState("chicken");
+const[query,setQuery] = useState("");
 
 useEffect(() =>{
 console.log('enter search');
