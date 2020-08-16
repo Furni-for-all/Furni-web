@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Sdata from "./Sdata";
-import './App.css';
+import './Home.css'
 import Card from './Card';
 
 const Home = () => {
@@ -41,18 +41,9 @@ return(
       </form>
       
     </div>
-     <div className="announcement-bar">
-     <p>
-     <img className= "flag" src="/images/indian_flag.png" alt="INDIA flag" >
-      </img>
-       We are based in INDIA 
-       <img className= "flag" src="/images/indian_flag.png" alt="INDIA flag" >
-      </img>
-     </p>
-   </div>
-
+     
    <div >
-     <h1 className = "text-center">Our Services</h1>
+     <h1 className = "text-center"></h1>
      </div>
     <div className="container-fluid mb-5">
        <div className = "row">
@@ -62,14 +53,10 @@ return(
              Sdata.map((val,ind) => {
                return <Card key={ind}
                imgsrc = {val.imgsrc}
-               title= {val.title}/>
+               title= {val.title}
+               body={val.body}/>
              })
-           }
-           
-
-        
-
-       
+           }       
         </div>
         </div>
       </div>

@@ -2,10 +2,10 @@ import React from 'react';
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css"
 import "bootstrap/dist/js/bootstrap.bundle"
 
-import Home from "./Home";
-import Contact from "./Contact";
-import About from "./About";
-import Navbar from "./Navbar";
+import Home from "./components/Home/Home.jsx"
+import Contact from "./\components/Contact/Contact";
+import About from "./components/About/About";
+import Navbar from "./components/Navbar";
 import './App.css';
 import { Switch, Route, Redirect } from 'react-router-dom';
 
