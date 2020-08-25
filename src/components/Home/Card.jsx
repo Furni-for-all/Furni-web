@@ -14,7 +14,7 @@ const Card = (props) =>{
             <div className="card-body">
               <h5 className="card-title font-weight-bold">{props.title}</h5>
               <p className="card-text">{props.body}</p>
-              <NavLink to="" className="btn btn-primary" onClick={onClickHandler}>More Details</NavLink>
+              <NavLink to="/moreDetails" className="btn btn-primary" onClick={onClickHandler}>More Details</NavLink>
             </div>
           </div>
         </div>

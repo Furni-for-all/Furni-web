@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import Sdata from "./Sdata";
 import './Home.css'
 import Card from './Card';
+import Footer from '../Footer/Footer'
 
 const Home = () => {
 
@@ -61,6 +62,7 @@ return(
         </div>
       </div>
     </div>
+    <Footer />
   </div>
 
  

@@ -1,0 +1,55 @@
+.main-container {
+    background: #FF7F50;
+}
+.copyright-container {
+    font-size: 15px;
+    justify-content: center;
+    display: grid;
+    margin-top: 40px;
+}
+.copyright-container span {
+    margin-bottom: 20px;
+}
+.main-flex-container {
+    flex-direction: row;
+    display: flex;
+}
+.about {
+    width: 50%;
+}
+.contact {  
+    width: 50%;
+}
+.head {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-right: 10px;
+    color: white;
+    font-weight: bold;  
+}
+.about_body {
+    margin-left: 20px;
+    margin-right: 40px;
+    margin-top: 20px;
+}
+.about_body span {
+    color: white;
+}
+.head-container {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.body h2 {
+    margin-top: 20px;
+    font-size: 15px;
+    color: white;
+}
+.body h3{
+    font-size: 13px;
+}
+.body h3 a {
+    color: white;
+}
+.body h3 a:hover {
+    color: indigo;
+}

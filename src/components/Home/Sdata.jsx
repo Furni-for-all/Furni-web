@@ -44,5 +44,10 @@ const Sdata = [
         title: "Spinal",
         body: "Some quick example text to build on the card title and make up the bulk of the card's content"
     },
+    {
+        imgsrc: brain,
+        title: "Dwarf",
+        body: "Some quick example text to build on the card title and make up the bulk of the card's content"
+    },
 ];
 export default Sdata;
