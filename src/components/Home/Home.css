@@ -69,3 +69,22 @@
   width: 100px;
   height: 100px;
 }
+.above-search {
+  height: 70px;
+  background: #FF7F50;
+}
+
+.above-search h1 {
+  font-size: 40px;
+  font-weight: bold;
+  font-family: 'Londrina Solid', cursive;
+}
+.space {
+  height: 30px;
+}
+.search-form h1 {
+  font-size: 40px;
+  font-weight: bold;
+  font-family: 'Londrina Solid', cursive;
+  margin-right: 80px;
+}

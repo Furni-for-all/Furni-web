@@ -27,22 +27,26 @@ const getSearch = e =>{
 return(
     <div>
     <div className="App">
+      <div className="above-search d-lg-none">
+          <div className="d-lg-none">
+          <h1>Furni</h1>
+          </div>
+      </div>
       <form onSubmit={getSearch} className="search-form">
+      <div className="d-none d-lg-block">
+          <h1>Furni</h1>
+      </div>
         <input className="search-bar" type="text"
         value = {search}
-        onChange = {updateSearch}
-        
-        />
+        onChange = {updateSearch}/>
         <button 
         className = "search-button"
-        type="submit"
-        >
+        type="submit">
         Search
         </button>
       </form>
       
-    </div>
-     
+    </div>     
    <div >
      <h1 className = "text-center"></h1>
      </div>
