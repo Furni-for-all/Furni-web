@@ -1,12 +1,11 @@
 import React from "react";
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import './Home.css'
+import MoreDetails from '../MoreDetails/MoreDetails'
 
 import { NavLink } from "react-router-dom";
 const Card = (props) =>{
 
-  const onClickHandler = () => {
-    console.log("clicked")
-  }
   return(
         <div className="col-md-4 col-10 mx-auto">
           <div className="card ">
@@ -14,7 +13,13 @@ const Card = (props) =>{
             <div className="card-body">
               <h5 className="card-title font-weight-bold">{props.title}</h5>
               <p className="card-text">{props.body}</p>
-              <NavLink to="/moreDetails" className="btn btn-primary" onClick={onClickHandler}>More Details</NavLink>
+                <NavLink to={{
+                  pathname:'/moreDetails',
+                  state: {title: props.title}  
+                  }}
+                  className="btn btn-primary">
+                  Go to Details
+                </NavLink>
             </div>
           </div>
         </div>
