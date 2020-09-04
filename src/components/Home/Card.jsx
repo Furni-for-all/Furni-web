@@ -1,7 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import './Home.css'
-import MoreDetails from '../MoreDetails/MoreDetails'
 
 import { NavLink } from "react-router-dom";
 const Card = (props) =>{

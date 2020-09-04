@@ -1,0 +1,29 @@
+img{
+align-self: center;
+}
+.card {
+  flex-direction: row;
+}
+
+.link-container {
+  flex-direction: row;
+  display: flex;
+}
+
+.card_img img {
+width: 100px;
+height: 100px;
+}
+
+.card-img-top {
+width: 300px;
+height: 100px;
+margin-left: 10px;
+}
+
+.amazon-icon{
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
