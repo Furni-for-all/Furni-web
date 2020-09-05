@@ -1,7 +1,7 @@
 img{
 align-self: center;
 }
-.card {
+.detail-card {
   flex-direction: row;
 }
 
@@ -15,7 +15,7 @@ width: 100px;
 height: 100px;
 }
 
-.card-img-top {
+.detail-card-img-top {
 width: 300px;
 height: 100px;
 margin-left: 10px;
